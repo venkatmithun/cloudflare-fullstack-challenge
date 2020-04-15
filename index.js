@@ -36,8 +36,8 @@ const rewriter = function(variant) {
       "p#description",
       new ElementHandler(
         variant == "1"
-          ? "Deployed by Venkat Mithun! Cookies expire in 5 sec"
-          : "Looking for internships! Cookies expire in 5 sec"
+          ? "Deployed by Venkat Mithun!"
+          : "Looking for internships!"
       )
     )
     .on("a#url", new ElementHandler("Interested in me?", "href"));
@@ -75,7 +75,7 @@ async function handleRequest(request) {
     result = group === "1" ? var1 : var2;
     result = new Response(result.body, result);
     // Setting cookie which expires in 5sec
-    result.headers.append("Set-Cookie", `${NAME}=${group};max-age=5; path=/`);
+    result.headers.append("Set-Cookie", `${NAME}=${group}; path=/`);
   }
   return rewriter(group).transform(result);
 }
