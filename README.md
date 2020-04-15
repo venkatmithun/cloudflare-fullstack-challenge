@@ -6,5 +6,5 @@ Using Cloudflare Workers, you'll deploy an application that will randomly send u
 
 ## Published at
 
-https://fullstack.venkat.workers.dev 
+https://fullstack.venkat.workers.dev   
 Run in incognito mode to see different variants and not store cookies
