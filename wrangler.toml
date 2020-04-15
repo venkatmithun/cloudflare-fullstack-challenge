@@ -1,0 +1,4 @@
+name = "fullstack"
+type = "javascript"
+account_id = "7dc70f9aacaae487070eb6820755a576"
+workers_dev = true
