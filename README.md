@@ -7,4 +7,3 @@ Using Cloudflare Workers, I deployed an application that will randomly send user
 ## Published at
 
 https://fullstack.venkat.workers.dev   
-Run in incognito mode to see different variants and not store cookies
